@@ -24,7 +24,7 @@
 # In[1]:
 
 
-#!pip install numpy pandas requests unidecode scikit-learn tqdm
+#!pip install numpy pandas requests unidecode scikit-learn tqdm openpyxl watermark
 
 
 # In[2]:

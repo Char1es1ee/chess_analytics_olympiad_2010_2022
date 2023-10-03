@@ -1,3 +1,7 @@
+# SIADS593M1
+#### 19-mqnguy-kemiao-jimy-2023fall
+Please run `clean_manipulate.ipynb` then `analysis.ipynb` in that order. Additional datasets will be downloaded the first time you run `clean_manipulate.ipynb`.
+
 ## 1. Name
 Chess Analytics: The Relationship Between Rating Discrepancy and Various Metrics
 
@@ -56,61 +60,40 @@ In this project, we used several datasets related to Olympiad results, economic 
 
 ### 8.1 Primary Dataset
 #### FIDE Chess Olympiad Results
-##### Description: 
+- Description: 
 This dataset contains the results of all matches played by a player during the tournament. It includes relevant columns such as player name, federation, no. of games played, rating before the tournament, and change in rating at the conclusion of the tournament. The players are all grouped by federation.
-##### Size: 
-1.99 MB in total size, made up of 6 different XLSX files, one for each biennial Olympiad that took place during 2010-2022 (minus 2020 due to Covid).
-##### No. of attributes: 
-23
-##### Format: 
-XLXS
-##### Access: 
-Download (via script)
-##### Location: 
-chess-results.com
+- Size: 1.99 MB in total size, made up of 6 different XLSX files, one for each biennial Olympiad that took place during 2010-2022 (minus 2020 due to Covid).
+- No. of attributes: 23
+- Format: XLXS
+- Access: Download (via script)
+- Location: chess-results.com
 
 ### 8.2 Secondary Datasets
 #### 8.2.1 World Development Indicators
-##### Description: 
+- Description: 
 Contains various economic indicators for each country, such as income distribution, income per capita, GDP per capita, GNI per capita, and population statistics, among others.
-##### Size: 
-1.19 MB
-##### No. of attributes: 
-24
-##### Format: 
-csv
-##### Access: 
-Download
-##### Location: 
-databank.wordbank.org
+- Size: 1.19 MB
+- No. of attributes: 24
+- Format: csv
+- Access: Download
+- Location: databank.wordbank.org
 
 #### 8.2.2 Capital Coordinates Data
-##### Description: 
-It contains country name, capital city, latitude, longitude, population, capital and type for countries. Will be used to help determine chess culture.
-##### Size: 
-12.42 KB
-##### No. of attributes: 
-6
-##### Format: 
-csv
-##### Access: 
-Download (via script)
-##### Location: 
-gist.github.com
+- Description: It contains country name, capital city, latitude, longitude, population, capital and type for countries. Will be used to help determine chess culture.
+- Size: 12.42 KB
+- No. of attributes: 6
+- Format: csv
+- Access: Download (via script)
+- Location: gist.github.com
 
 #### 8.2.3 FIDE Rated Players Data
-##### Description: 
+- Description: 
 Has information on all FIDE rated players. It includes player ID, name, federation, rating, and any chess titles
-##### Size: 
-435 MB, made up of 14 separate files.
-##### No. of attributes: 
-7
-##### Format: 
-TXT
-##### Access: 
-Download (via script)
-##### Location: 
-ratings.fide.com
+- Size: 435 MB, made up of 14 separate files.
+- No. of attributes: 7
+- Format: TXT
+- Access: Download (via script)
+- Location: ratings.fide.com
 
 
 ## 5. Dependencies
